@@ -74,6 +74,21 @@ namespace Lab02
             Console.WriteLine($"Is Boss: {KnightIsBoss}");
             Console.WriteLine();
 
+            int KnightHpPercent = KnightHp * 100 / KnightHp;
+            Console.WriteLine($"HP Percent: {KnightHpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine("Rao takes 70 damage!");
+            KnightHp = KnightHp - 70;
+            Console.WriteLine();
+
+            Console.WriteLine("===== CHARACTER 1: RAO AFTER DAMAGE =====");
+            Console.WriteLine($"HP: {KnightHp} / {KnightHp}");
+
+            KnightHpPercent = KnightHp * 100 / KnightHp;
+            Console.WriteLine($"HP Percent: {KnightHpPercent}%");
+            Console.WriteLine();
+
 
             // =========================
             // Character 2 : Luna
@@ -91,6 +106,21 @@ namespace Lab02
             Console.WriteLine($"HP: {mageHp}");
             Console.WriteLine($"Magic Power: {mageMagicPower}");
             Console.WriteLine($"Is Boss: {mageIsBoss}");
+            Console.WriteLine();
+
+            int mageHpPercent = mageHp * 100 / mageHp;
+            Console.WriteLine($"HP Percent: {mageHpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine("Luna takes 45 damage!");
+            mageHp = mageHp - 45;
+            Console.WriteLine();
+
+            Console.WriteLine("===== CHARACTER 2: LUNA AFTER DAMAGE =====");
+            Console.WriteLine($"HP: {mageHp} / {mageHp}");
+
+            mageHpPercent = mageHp * 100 / mageHp;
+            Console.WriteLine($"HP Percent: {mageHpPercent}%");
             Console.WriteLine();
 
 
@@ -112,6 +142,20 @@ namespace Lab02
             Console.WriteLine($"Is Boss: {archerIsBoss}");
             Console.WriteLine();
 
+            int archerHpPercent = archerHp * 100 / archerHp;
+            Console.WriteLine($"HP Percent: {archerHpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine("Robin takes 55 damage!");
+            archerHp = archerHp - 55;
+            Console.WriteLine();
+
+            Console.WriteLine("===== CHARACTER 3: ROBIN AFTER DAMAGE =====");
+            Console.WriteLine($"HP: {archerHp} / {archerHp}");
+
+            archerHpPercent = archerHp * 100 / archerHp;
+            Console.WriteLine($"HP Percent: {archerHpPercent}%");
+            Console.WriteLine();
 
             // =========================
             // Character 4 : Shadow
@@ -131,6 +175,22 @@ namespace Lab02
             Console.WriteLine($"Is Boss: {assassinIsBoss}");
             Console.WriteLine();
 
+            int assassinHpPercent = assassinHp * 100 / assassinHp;
+            Console.WriteLine($"HP Percent: {assassinHpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine("Shadow takes 80 damage!");
+            assassinHp = assassinHp - 80;
+            Console.WriteLine();
+
+            Console.WriteLine("===== CHARACTER 4: SHADOW AFTER DAMAGE =====");
+            Console.WriteLine($"HP: {assassinHp} / {assassinHp}");
+
+            assassinHpPercent = assassinHp * 100 / assassinHp;
+            Console.WriteLine($"HP Percent: {assassinHpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine("===== GAME END =====");
 
 
 
