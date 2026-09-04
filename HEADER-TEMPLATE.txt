@@ -1,7 +1,7 @@
 /*
- * Student ID :
- * Name       :
- * Section    :
- * No.        :
+ * Student ID :1650703067
+ * Name       :Thanatat Muangduang
+ * Section    :129B
+ * No.        :01
  * Course     : GI113 Computer Programming (GI)
  */
