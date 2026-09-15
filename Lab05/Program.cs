@@ -1,4 +1,11 @@
-﻿namespace Lab05
+﻿/*
+* Student ID :1650703067
+* Name       :Thanatat Muangduang
+* Section    :129B
+* No.        :01
+* Course     : GI113 Computer Programming (GI)
+*/
+namespace Lab05
 {
     internal class Program
     {
